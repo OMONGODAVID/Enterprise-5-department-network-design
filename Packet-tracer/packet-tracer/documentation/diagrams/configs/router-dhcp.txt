@@ -1,0 +1,16 @@
+Router DHCP Configuration Summary
+
+- DHCP enabled on the central router
+- Separate DHCP pools per department subnet
+- Excluded addresses reserve gateway and infrastructure IPs
+
+Example Structure:
+- Excluded addresses: .1 – .10
+- DHCP pool per department
+- Network statement matches department subnet
+- Default-router set to department gateway
+
+This configuration ensures:
+- Automatic IP assignment
+- Consistent gateway configuration
+- Support for wired and wireless devices
