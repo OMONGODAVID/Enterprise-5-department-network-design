@@ -1,1 +1,9 @@
 configs/notes.txt
+Design Notes
+
+- Each department is connected via a dedicated router interface
+- Wireless Access Points are configured using Packet Tracer GUI
+- APs bridge wireless clients directly into department LANs
+- No VLANs implemented (flat per-department design)
+- Network tested using ping and VoIP call simulation
+
